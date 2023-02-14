@@ -1,30 +1,48 @@
+/* formattazione pagina */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+ul li{
+    list-style-type: none;
+}
+
+h1{
+    display: inline-block;
+}
+
+/* header */
+
+/* allineamento logo */
 #logo{
     vertical-align: -90%;
     margin-left: 30px;
 }
 
+/* formattazione + font */
 header{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1% 0% 1% 1%;
 }
 
+/* body */
+
+/* font */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* sfondo */
 main{
     background-color: #f6f8f9;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
+/* nav */
 nav{
     width: 65%;
     margin: auto;
@@ -36,10 +54,7 @@ nav{
     border-top-left-radius: 7px;
 }
 
-ul li{
-    list-style-type: none;
-}
-
+/* tasto task */
 #task{
     background-color: #48adf1;
     color: white;
@@ -47,6 +62,7 @@ ul li{
     border-radius: 7px;
 }
 
+/* tasto section */
 #section{
     border: 1px solid lightgrey;
     color: lightgrey;
@@ -54,6 +70,7 @@ ul li{
     border-radius: 7px;
 }
 
+/* formattazione section */
 section{
     width: 65%;
     margin: auto;
@@ -66,79 +83,71 @@ section{
     border-bottom-left-radius: 7px;
 }
 
-h1{
-    display: inline-block;
-}
-
-
+/* check symbol */
 .check::before{
     content: '\2713';
     border: 1px solid green;
     border-radius: 50%;
-    padding: 3px 3px;
+    padding: 1px 3px;
     color: green;
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 10px;
 }
 
+/* cross symbol */
 .cross::before{
     content: '\2715';
     border: 1px solid rgb(255, 0, 0);
     border-radius: 50%;
-    padding: 3px 3px;
+    padding: 1px 3px;
     color: rgb(255, 0, 0);
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 10px;
 }
 
+/* list item spacing */
 li{
     margin-top: 15px;
 }
 
+/* arrow down size */
 .arrow{
     font-size: 15px;
 }
 
+/* div spacing */
 div{
     margin-top: 40px;
 }
 
-.button-blue{
-    background-color: #48adf1;
+/* button colors */
+.button{
     color: white;
     padding: 5px;
     border-radius: 7px;
+    font-size: 10px;
+}
+
+.button-blue{
+    background-color: #48adf1;
 }
 
 #button-purple{
     background-color: #9a71e2;
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
 }
 
 #button-acqua{
     background-color: #64c0a9;
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
 }
 
 #button-orange{
     background-color: #f29e33;
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
 }
 
 #button-pink{
     background-color: #d762a0;
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
 }
 
 #button-yellow{
     background-color: #b0c926;
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
 }
