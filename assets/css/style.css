@@ -17,7 +17,8 @@ header{
 
 main{
     background-color: #3204ff;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 nav{
@@ -27,11 +28,35 @@ nav{
     padding-top: 15px;
     background-color: white;
     height: 50px;
-    vertical-align: middle;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
 }
 
 ul li{
     list-style-type: none;
 }
 
-#task
+#task{
+    background-color: #48adf1;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#section{
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+section{
+    width: 65%;
+    margin: auto;
+    margin-top: 0.2%;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: white;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
