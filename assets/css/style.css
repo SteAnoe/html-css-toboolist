@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+header{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1% 0% 1% 1%;
+}
+
+main{
+    background-color: #3204ff;
+    padding-top: 5%;
+}
+
+nav{
+    width: 65%;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 15px;
+    background-color: white;
+    height: 50px;
+    vertical-align: middle;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#task
